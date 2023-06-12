@@ -7410,76 +7410,7 @@
           "remoteProcessGroups" : [ ],
           "variables" : { }
         } ],
-        "processors" : [ {
-          "autoTerminatedRelationships" : [ ],
-          "backoffMechanism" : "PENALIZE_FLOWFILE",
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-standard-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.21.0"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "5d42e533-bb78-3f2c-bb39-eb43b93ff1c0",
-          "identifier" : "e54d2db6-98c6-3665-bb72-6cc13dda3d79",
-          "instanceIdentifier" : "af400e9a-0188-1000-0d7d-660c829ecb44",
-          "maxBackoffPeriod" : "10 mins",
-          "name" : "AttributesToJSON",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : 1430.0,
-            "y" : 183.0
-          },
-          "properties" : {
-            "Destination" : "flowfile-attribute",
-            "Null Value" : "false",
-            "Include Core Attributes" : "true"
-          },
-          "propertyDescriptors" : {
-            "attributes-to-json-regex" : {
-              "displayName" : "Attributes Regular Expression",
-              "identifiesControllerService" : false,
-              "name" : "attributes-to-json-regex",
-              "sensitive" : false
-            },
-            "Destination" : {
-              "displayName" : "Destination",
-              "identifiesControllerService" : false,
-              "name" : "Destination",
-              "sensitive" : false
-            },
-            "Null Value" : {
-              "displayName" : "Null Value",
-              "identifiesControllerService" : false,
-              "name" : "Null Value",
-              "sensitive" : false
-            },
-            "Attributes List" : {
-              "displayName" : "Attributes List",
-              "identifiesControllerService" : false,
-              "name" : "Attributes List",
-              "sensitive" : false
-            },
-            "Include Core Attributes" : {
-              "displayName" : "Include Core Attributes",
-              "identifiesControllerService" : false,
-              "name" : "Include Core Attributes",
-              "sensitive" : false
-            }
-          },
-          "retriedRelationships" : [ ],
-          "retryCount" : 10,
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.standard.AttributesToJSON",
-          "yieldDuration" : "1 sec"
-        } ],
+        "processors" : [ ],
         "remoteProcessGroups" : [ ],
         "variables" : { }
       },
